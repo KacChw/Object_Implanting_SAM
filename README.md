@@ -23,22 +23,22 @@ This project implements a system for detecting, masking, and inpainting objects 
 ### 1. Initial Image with Detected Objects
 YOLOv9 detects objects and creates bounding boxes:
 
-![Initial Detection](img/detection_example.png)
+![Initial Detection](assets/out.png)
 
 ### 2. Generated Mask with SAM
 SAM produces masks for each detected object:
 
-![Object Masking](img/mask_example.png)
+![Object Masking](assets/image_with_boxes.png)
 
 ### 3. Background Inpainting
 Stable Diffusion fills masked regions with realistic background:
 
-![Inpainting Process](img/inpainting_example.png)
+![Inpainting Process](asssets/mask.png)
 
 ### 4. Final Image
 Objects removed and background restored seamlessly:
 
-![Final Image](img/final_result.png)
+![Final Image](assets/inpainted_background.png)
 
 ## Installation
 
