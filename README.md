@@ -33,7 +33,7 @@ SAM produces masks for each detected object:
 ### 3. Background Inpainting
 Stable Diffusion fills masked regions with realistic background:
 
-![Inpainting Process](asssets/mask.png)
+![Inpainting Process](assets/mask.png)
 
 ### 4. Final Image
 Objects removed and background restored seamlessly:
